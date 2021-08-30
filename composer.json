@@ -1,0 +1,21 @@
+{
+    "name": "linuzilla/simple-orm",
+    "description": "A tiny PHP ORM based on Attributes.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Linuzilla\\Database\\": "db/",
+            "Linuzilla\\Form\\": "form/",
+            "Linuzilla\\Utils\\": "utils/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mac Liu",
+            "email": "linuzilla@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
